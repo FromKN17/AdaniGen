@@ -1,0 +1,49 @@
+@font-face {
+    font-family: valorant;
+    src: url(/Fonts/Valorant\ Font.ttf);
+  }
+  @font-face {
+    font-family: adanigen;
+    src: url(/Fonts/Paleo\ Kids.ttf);
+  }
+  @font-face {
+    font-family: resultingvalorant;
+    src: url(/Fonts/PaybAck.ttf);
+  }
+.title {
+    text-align: center;
+    color: #ff0000;
+    font-family: 'valorant';
+    font-size: 50px;
+}
+
+html, body, head, footer {
+  background-color: black;
+}
+.adani {
+    color: rgb(110, 219, 187);
+    font-size: 59px;
+    text-align: center;
+    font-family: 'adanigen';
+}
+
+.account {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    background-color: rgb(113, 113, 113);
+}
+
+.result {
+    text-align: center;
+    color: white;
+    font-size: 59px;
+    font-family: 'resultingvalorant';
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
